@@ -1,0 +1,42 @@
+# ===== Keil ARM (MDK-ARM) 编译中间文件和结果，不需要上传 =====
+
+# 编译产物目录（每个工程下）
+**/Objects/
+**/Listings/
+**/DebugConfig/
+**/RTE/
+
+# 编译生成的二进制/中间文件
+**/*.o
+**/*.d
+**/*.crf
+**/*.lnp
+**/*.dep
+**/*.axf
+**/*.htm
+**/*.build_log.htm
+**/*.lst
+**/*.map
+**/*.sct
+**/*.ld
+**/*.hex
+**/*.bin
+**/*.elf
+**/*.lib
+**/*.a
+**/*.dvv
+**/*.uvguix.*
+**/*.bak
+**/*.scr
+**/*.scvd
+
+# ===== 代码编辑器 / 系统文件 =====
+**/.vscode/
+**/.idea/
+**/*.vscode*
+**/*.uvguix*
+Thumbs.db
+Desktop.ini
+
+# ===== Git =====
+.DS_Store
